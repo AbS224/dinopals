@@ -3,6 +3,8 @@
 > **⚠️ PROJECT STATUS: This is an abandoned project available for public use.**
 > 
 > Security issues are addressed on a **best-effort basis only**. The maintainer checks in regularly but cannot guarantee timely responses or fixes. For critical security needs, please fork and maintain your own version.
+>
+> **Known vulnerabilities exist in dependencies.** See [SECURITY_NOTICE.md](SECURITY_NOTICE.md) for current status and recommendations.
 
 This project aims for clear, professional, and secure practices suitable for government/enterprise contributors and users.
 

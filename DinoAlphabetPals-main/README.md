@@ -5,6 +5,8 @@
 > This repository has been made publicly available for anyone to use, fork, and adapt under the MIT License. While I check in regularly to review issues and pull requests, I am not actively developing new features or providing regular support. Response times may be significantly delayed.
 > 
 > This is an abandoned project now available for public use. Feel free to fork, modify, and use it for your own purposes!
+>
+> **🔒 SECURITY:** Known moderate vulnerabilities exist in dependencies. See [SECURITY_NOTICE.md](SECURITY_NOTICE.md) for details. Use at your own risk or update dependencies if using in production.
 
 [![CI](https://github.com/AbS224/dinopals/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/AbS224/dinopals/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
