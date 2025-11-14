@@ -53,7 +53,7 @@ const ParentDashboard: React.FC = () => {
         {/* Progress Section */}
         <div className="bg-white rounded-2xl shadow-xl p-8 mb-8">
           <h2 className="text-2xl font-bold text-gray-800 mb-6 flex items-center">
-            🎯 Jeffrey's Progress
+            🎯 Progress Overview
           </h2>
           <ProgressGrid />
         </div>
@@ -69,7 +69,7 @@ const ParentDashboard: React.FC = () => {
         {/* Info Footer */}
         <div className="mt-8 text-center text-gray-600">
           <p className="text-sm">
-            Made with 💚 for Jeffrey from Uncle Adam
+            Made with 💚 for learners
           </p>
           <p className="text-xs mt-2">
             Safe, educational, and always encouraging!

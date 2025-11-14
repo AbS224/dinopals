@@ -42,6 +42,18 @@ npm run build
 npm start
 ```
 
+## Local-Only Mode (No External Services)
+
+All external integrations are optional and disabled by default. The app runs entirely locally:
+- AI difficulty falls back to rule-based logic (`lib/geminiAI.ts`)
+- Voice output falls back to browser TTS (`hooks/useEnhancedVoice.ts`)
+
+To enable demo login locally (optional):
+```bash
+echo 'NEXT_PUBLIC_DEMO_LOGIN_USER=demo' >> .env.local
+echo 'NEXT_PUBLIC_DEMO_LOGIN_PASS=demo123' >> .env.local
+```
+
 ## 🤖 AI & Voice Setup
 
 ### Google Gemini AI (Adaptive Difficulty)
@@ -50,7 +62,7 @@ npm start
 3. Restart the app
 
 **AI Features:**
-- 🎯 Automatically adjusts difficulty based on Jeffrey's performance
+- 🎯 Automatically adjusts difficulty based on the learner's performance
 - 💬 Generates personalized encouragement messages
 - 📊 Analyzes learning patterns and suggests improvements
 - 🧠 Smart letter selection based on struggling areas
@@ -73,7 +85,7 @@ npm start
 4. **Parents**: Hold the ⚙️ for 3 seconds (top right) to enter your PIN (default: 1234)
 
 ## 👨‍👩‍👧‍👦 For Parents
-- **Progress Tracking**: See which letters Jeffrey has mastered
+- **Progress Tracking**: See which letters your learner has mastered
 - **Screen Time**: Set daily play limits (15, 30, 45 minutes, or unlimited)
 - **AI Insights**: View AI analysis of learning patterns
 - **Voice Settings**: Choose from premium voices and test different emotions
@@ -194,7 +206,25 @@ npm run build && npx netlify deploy --prod --dir=out
 ```
 
 ## 🤝 Contributing
-We welcome contributions! This project is open source and maintained on a best-effort basis. Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines, [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) for community standards, and [GOVERNANCE.md](GOVERNANCE.md) for decision-making.
+
+## 🔐 Security
+
+Please review our [Security Policy](SECURITY.md) for supported versions, how to report vulnerabilities, and secure development guidance.
+
+## 🧭 Architecture & Threat Model
+
+- Architecture overview and diagrams: [docs/architecture.md](docs/architecture.md)
+- Threat model (STRIDE): [docs/threat-model.md](docs/threat-model.md)
+- C4 diagrams: [docs/c4-context.md](docs/c4-context.md), [docs/c4-container.md](docs/c4-container.md)
+
+## 📘 Product Overview
+
+See [docs/product-overview.md](docs/product-overview.md) for a high-level summary, configuration, and demo tips.
+
+## 🚢 Deployment & Hardening
+
+See [docs/deployment.md](docs/deployment.md) for security headers, CSP examples, and platform notes.
 
 ## 📝 License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

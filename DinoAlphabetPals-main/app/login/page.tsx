@@ -172,11 +172,11 @@ const LoginPage: React.FC = () => {
           {/* Help Text */}
           <div className="mt-8 text-center">
             <p className="text-sm text-gray-500">
-              This is a private family app for Jeffrey's learning
+              This is a demo login for local testing only.
             </p>
             <div className="mt-4 p-3 bg-blue-50 rounded-xl border border-blue-200">
               <p className="text-xs text-blue-700">
-                <strong>Hint:</strong> Contact Adam if you need login credentials
+                <strong>Hint:</strong> See the README for demo credentials
               </p>
             </div>
           </div>
@@ -185,7 +185,7 @@ const LoginPage: React.FC = () => {
         {/* Footer */}
         <div className="text-center mt-6">
           <p className="text-sm text-gray-500">
-            Made with 💚 for Jeffrey from Uncle Adam
+            Made with 💚 for learners
           </p>
         </div>
       </div>

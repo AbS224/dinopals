@@ -1,0 +1,26 @@
+name: Bug report
+description: File a bug report
+labels: [bug]
+body:
+  - type: textarea
+    attributes:
+      label: Description
+      description: Clear and concise description of the problem
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Steps to Reproduce
+      description: Include sample inputs, screenshots, or logs
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Version/Commit
+  - type: textarea
+    attributes:
+      label: Environment
+      description: OS, Node version, browser
+  - type: textarea
+    attributes:
+      label: Additional context

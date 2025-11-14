@@ -15,7 +15,7 @@ class ElevenLabsVoice {
   private voiceId: string;
   private audioCache = new Map<string, string>();
 
-  constructor(apiKey: string, voiceId: string = 'pNInz6obpgDQGcFmaJgB') { // Adam voice ID
+  constructor(apiKey: string, voiceId: string = 'pNInz6obpgDQGcFmaJgB') { // Default child-friendly voice ID
     this.apiKey = apiKey;
     this.voiceId = voiceId; // Default to a child-friendly voice
   }

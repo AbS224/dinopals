@@ -53,7 +53,7 @@ const TestPage: React.FC = () => {
   const testElevenLabsVoice = async (emotion: 'happy' | 'excited' | 'gentle' | 'encouraging') => {
     try {
       handleInfo(`Testing ElevenLabs voice with ${emotion} emotion`);
-      await speak(`Hi Jeffrey! This is a test of the ${emotion} voice from your dinosaur friend!`, emotion);
+      await speak(`Hello! This is a test of the ${emotion} voice from your dinosaur friend!`, emotion);
       
       setTestResults(prev => ({
         ...prev,

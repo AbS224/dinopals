@@ -65,7 +65,7 @@ read -p "Enter your ElevenLabs API key (or press Enter to skip): " ELEVENLABS_KE
 if [ ! -z "$ELEVENLABS_KEY" ]; then
     echo ""
     echo "Optional: Choose a voice ID"
-    echo "• pNInz6obpgDQGcFmaJgB (Adam - default, child-friendly)"
+    echo "• pNInz6obpgDQGcFmaJgB (Default child-friendly voice)"
     echo "• Or leave blank for default"
     read -p "Enter voice ID (or press Enter for default): " VOICE_ID
     
@@ -155,7 +155,7 @@ echo -e "${BLUE}✨ What you get with these API keys:${NC}"
 
 if [ ! -z "$GEMINI_KEY" ]; then
     echo "🧠 Google Gemini AI:"
-    echo "   • Adaptive difficulty based on Jeffrey's performance"
+    echo "   • Adaptive difficulty based on the learner's performance"
     echo "   • Personalized encouragement messages"
     echo "   • Smart learning pattern analysis"
 fi
