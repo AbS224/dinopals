@@ -27,3 +27,4 @@ The format is based on Keep a Changelog and this project adheres to Semantic Ver
 
 [Unreleased]: https://github.com/AbS224/dinopals/compare/v0.1.0...HEAD
 [0.1.0]: https://github.com/AbS224/dinopals/releases/tag/v0.1.0
+

@@ -229,6 +229,11 @@ See [docs/product-overview.md](docs/product-overview.md) for a high-level summar
 
 See [docs/deployment.md](docs/deployment.md) for security headers, CSP examples, and platform notes.
 
+## 📦 Releases & Changelog
+
+- Release process: [docs/releasing.md](docs/releasing.md)
+- Changelog: [CHANGELOG.md](CHANGELOG.md)
+
 ## 📝 License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
