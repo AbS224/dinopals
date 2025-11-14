@@ -228,11 +228,11 @@ See [docs/product-overview.md](docs/product-overview.md) for a high-level summar
 ## 🔊 Audio Preview
 
 <audio controls>
-  <source src="KEEP%20THE%20COMMONS%20LIT.wav" type="audio/wav" />
+  <source src="KEEP%20THE%20COMMONS%20LIT.mp3" type="audio/mpeg" />
   Your browser does not support the audio element.
 </audio>
 
-- Direct link: [KEEP THE COMMONS LIT.wav](KEEP%20THE%20COMMONS%20LIT.wav)
+- Direct link: [KEEP THE COMMONS LIT.mp3](KEEP%20THE%20COMMONS%20LIT.mp3)
 
 ## 🚢 Deployment & Hardening
 
