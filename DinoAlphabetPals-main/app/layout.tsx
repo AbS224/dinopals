@@ -1,0 +1,27 @@
+import './globals.css'
+import type { Metadata } from 'next'
+import { Inter } from 'next/font/google'
+import ErrorBoundary from '@/components/ErrorBoundary'
+
+const inter = Inter({ subsets: ['latin'] })
+
+export const metadata: Metadata = {
+  title: 'DinoAlphabet Pals - For Jeffrey from Uncle Adam',
+  description: 'A magical alphabet learning adventure with your dinosaur friend!',
+}
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode
+}) {
+  return (
+    <html lang="en">
+      <body className={inter.className}>
+        <ErrorBoundary>
+          {children}
+        </ErrorBoundary>
+      </body>
+    </html>
+  )
+}
