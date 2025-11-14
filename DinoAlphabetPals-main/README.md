@@ -211,9 +211,9 @@ npm run build && npx netlify deploy --prod --dir=out
 ## 🤝 Contributing
 We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines, [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) for community standards, and [GOVERNANCE.md](GOVERNANCE.md) for decision-making.
 
-## 🔐 Security
+## 🔐 Security & Support
 
-Please review our [Security Policy](SECURITY.md) for supported versions, how to report vulnerabilities, and secure development guidance.
+Please review our [Security Policy](SECURITY.md) for how to report vulnerabilities and secure development guidance, and [SUPPORT.md](SUPPORT.md) for our best‑effort support policy.
 
 ## 🧭 Architecture & Threat Model
 
@@ -237,10 +237,20 @@ See [docs/deployment.md](docs/deployment.md) for security headers, CSP examples,
 ## 📝 License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
+## 🧑‍⚖️ Ownership & Support
+- Ownership: Copyright © 2024–2025 "DinoAlphabet Pals" authors.
+- License: MIT — permissive use, modification, and distribution are allowed.
+- Maintenance: Community-supported, best‑effort. No response-time guarantees or SLAs.
+- Issues/PRs: Reviewed as time permits. For urgent needs, please fork.
+
 ---
 
 **Made with 💚 for early childhood education**
 
 ## ℹ️ Maintainer’s Note
 
-This repository started as a self-learning project to practice programming fundamentals and documentation quality. It’s intentionally simple, runs fully locally without external services, and is maintained on a best‑effort basis. Contributions are welcome — please see CONTRIBUTING, follow the Code of Conduct, and propose enhancements via issues/PRs.
+This repository started as a self-learning project to practice programming fundamentals and documentation quality. It’s intentionally simple, runs fully locally without external services, and may not be actively maintained at all times. Contributions are welcome — please see CONTRIBUTING, follow the Code of Conduct, and propose enhancements via issues/PRs. By using or contributing, you acknowledge that:
+
+- There is no warranty and no guaranteed support timeline.
+- Maintainers may be slow to review or respond.
+- You are free to use, modify, and redistribute under MIT, while the project authors retain copyright.
