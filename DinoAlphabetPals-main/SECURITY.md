@@ -22,7 +22,7 @@ Include:
 - Proof-of-concept, if available
 - Suggested fix/mitigation, if known
 
-Acknowledgement SLA: within 5 business days. We coordinate disclosure, typically within 90 days depending on severity and remediation complexity.
+Acknowledgement: best‑effort only. We cannot guarantee response times. Responsible disclosure coordination is also on a best‑effort basis.
 
 ## Scope and Data Handling
 
