@@ -1,8 +1,8 @@
 # DinoAlphabet Pals
 
-> **⚠️ PROJECT STATUS: This project is no longer actively maintained.**
+> **⚠️ PROJECT STATUS: Lower priority - not actively maintained.**
 > 
-> This repository has been made publicly available for anyone to use, fork, and adapt under the MIT License. While I check in regularly to review issues and pull requests, I am not actively developing new features or providing regular support.
+> This project is currently a lower priority as I'm focused on more pressing work in the regtech space. I check in regularly to review issues and pull requests, but I'm not actively developing new features. The repository is publicly available for anyone to use, fork, and adapt under the MIT License.
 > 
 > **Feel free to:**
 > - Use the code for your own projects

@@ -1,6 +1,6 @@
 # Security Notice
 
-> **⚠️ This is an abandoned project. Security updates are provided on a best-effort basis only.**
+> **⚠️ This project is a lower priority. Security updates are provided on a best-effort basis only.**
 
 ## Known Vulnerabilities
 
@@ -22,7 +22,7 @@ The project uses Next.js v14.2.30, which has known moderate severity vulnerabili
 
 ### Mitigation Options
 
-Given the abandoned status of this project, you have the following options:
+Given the lower priority status of this project, you have the following options:
 
 1. **Accept the risk** - If you're using this for personal/educational purposes and not exposing it publicly
 2. **Update dependencies yourself** - Fork the repository and run `npm audit fix`

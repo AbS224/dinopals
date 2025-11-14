@@ -59,6 +59,6 @@ echo 'NEXT_PUBLIC_DEMO_LOGIN_PASS=demo123' >> .env.local
 
 ## Status
 
-> **⚠️ This is an abandoned project available for public use.**
+> **⚠️ This project is a lower priority but not abandoned.**
 
-This project is no longer actively maintained. The maintainer checks in regularly but cannot guarantee response times. It's provided "as-is" for anyone to use, fork, and adapt under the MIT License. See `GOVERNANCE.md`, `CONTRIBUTING.md`, `SECURITY.md`, and `SUPPORT.md` for complete details on the project's maintenance status and community guidelines.
+This project is currently a lower priority as the maintainer is focused on more pressing work in the regtech space. The maintainer checks in regularly but cannot guarantee response times. It's provided "as-is" for anyone to use, fork, and adapt under the MIT License. See `GOVERNANCE.md`, `CONTRIBUTING.md`, `SECURITY.md`, and `SUPPORT.md` for complete details on the project's maintenance status and community guidelines.

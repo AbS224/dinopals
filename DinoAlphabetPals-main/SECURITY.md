@@ -1,8 +1,8 @@
 # Security Policy
 
-> **⚠️ PROJECT STATUS: This is an abandoned project available for public use.**
+> **⚠️ PROJECT STATUS: Lower priority - not actively maintained.**
 > 
-> Security issues are addressed on a **best-effort basis only**. The maintainer checks in regularly but cannot guarantee timely responses or fixes. For critical security needs, please fork and maintain your own version.
+> This project is currently a lower priority as I'm focused on more pressing work in the regtech space. Security issues are addressed on a **best-effort basis only**. The maintainer checks in regularly but cannot guarantee timely responses or fixes. For critical security needs, please fork and maintain your own version.
 >
 > **Known vulnerabilities exist in dependencies.** See [SECURITY_NOTICE.md](SECURITY_NOTICE.md) for current status and recommendations.
 
@@ -28,7 +28,7 @@ Include:
 - Proof-of-concept, if available
 - Suggested fix/mitigation, if known
 
-Acknowledgement: best‑effort only. We cannot guarantee response times. Responsible disclosure coordination is also on a best‑effort basis. **Given the abandoned status of this project, security fixes may be significantly delayed or may not come at all. Users should evaluate their own risk tolerance.**
+Acknowledgement: best‑effort only. We cannot guarantee response times. Responsible disclosure coordination is also on a best‑effort basis. **Given the lower priority status of this project, security fixes may be significantly delayed or may not come at all. Users should evaluate their own risk tolerance.**
 
 ## Scope and Data Handling
 

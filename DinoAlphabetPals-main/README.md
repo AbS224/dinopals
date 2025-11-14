@@ -1,10 +1,8 @@
 # DinoAlphabet Pals
 
-> **⚠️ PROJECT STATUS: This project is no longer actively maintained.**
+> **⚠️ PROJECT STATUS: Lower priority - not actively maintained.**
 > 
-> This repository has been made publicly available for anyone to use, fork, and adapt under the MIT License. While I check in regularly to review issues and pull requests, I am not actively developing new features or providing regular support. Response times may be significantly delayed.
-> 
-> This is an abandoned project now available for public use. Feel free to fork, modify, and use it for your own purposes!
+> This project is currently a lower priority as I'm focused on more pressing work in the regtech space. I check in regularly to review issues and pull requests, but I'm not actively developing new features or providing regular support. Response times may be significantly delayed. The repository is publicly available for anyone to use, fork, and adapt under the MIT License.
 >
 > **🔒 SECURITY:** Known moderate vulnerabilities exist in dependencies. See [SECURITY_NOTICE.md](SECURITY_NOTICE.md) for details. Use at your own risk or update dependencies if using in production.
 
@@ -264,17 +262,17 @@ This repository started as a self-learning project to practice programming funda
 - You are free to use, modify, and redistribute under MIT, while the project authors retain copyright.
 ---
 
-## 📢 Project Abandonment Notice
+## 📢 Project Status Notice
 
-**This is an abandoned project now available for public use.** The original maintainer checks in regularly to review issues and pull requests but is not actively developing new features or providing regular support.
+**This project is a lower priority but not abandoned.** I'm currently focused on more pressing work in the regtech space, but I check in regularly to review issues and pull requests. Active feature development is paused, but the project remains functional and available for public use.
 
 ### What this means:
 
 - ✅ **Free to use, fork, and modify** under MIT License
 - ✅ **Issues and PRs welcome** - reviewed as time permits (may be delayed)
-- ⚠️ **No active development** - no new features planned
-- ⚠️ **Limited support** - responses may be significantly delayed or may not come at all
-- ⚠️ **Security updates** - addressed on best-effort basis only
+- ⏸️ **Development paused** - prioritizing other work commitments
+- ⚠️ **Limited support** - responses may be significantly delayed
+- ⚠️ **Security updates** - addressed on best-effort basis
 - 💡 **For urgent needs** - please fork and maintain your own version
 
-The project is functional and safe for use, but should be considered **unmaintained**. Community contributions and forks are encouraged!
+The project is functional and safe for use. Community contributions and forks are encouraged!

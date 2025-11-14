@@ -1,8 +1,8 @@
 # Project Governance
 
-> **⚠️ PROJECT STATUS: This is an abandoned project available for public use.**
+> **⚠️ PROJECT STATUS: Lower priority - not actively maintained.**
 > 
-> This project is no longer actively governed. While the structure below describes the intended governance model, in practice, reviews and decisions may be significantly delayed or may not occur. The maintainer checks in regularly but is not actively managing the project.
+> This project is currently a lower priority as I'm focused on more pressing work in the regtech space. While the structure below describes the intended governance model, in practice, reviews and decisions may be significantly delayed or may not occur. The maintainer checks in regularly but is not actively managing the project.
 
 ## Roles
 - Maintainers: Oversee direction, review PRs, cut releases, manage security advisories.
@@ -28,4 +28,4 @@
 
 ## Decommissioning
 
-**This project is effectively decommissioned.** It is available for public use but is no longer actively maintained. Users and contributors should treat this as an abandoned project and fork if ongoing development or support is needed.
+**This project is a lower priority but not decommissioned.** It is available for public use with limited maintenance as focus is on other work commitments. Users and contributors should fork if ongoing active development or immediate support is needed.

@@ -6,9 +6,10 @@ The format is based on Keep a Changelog and this project adheres to Semantic Ver
 
 ## [Unreleased]
 ### Changed
-- **Project Status**: Updated all documentation to reflect abandoned/unmaintained status
-- Added prominent warnings in README, CONTRIBUTING, SUPPORT, SECURITY, and GOVERNANCE
-- Clarified that maintainer checks in regularly but responses may be significantly delayed
+- **Project Status**: Updated all documentation to reflect lower priority status
+- Added prominent notices in README, CONTRIBUTING, SUPPORT, SECURITY, and GOVERNANCE
+- Clarified that project is lower priority due to regtech work, not abandoned
+- Maintainer checks in regularly but responses may be significantly delayed
 - Emphasized "as-is" nature with recommendation to fork for urgent needs
 - Removed redundant 2.4MB zip file from repository
 - Added *.zip to .gitignore
