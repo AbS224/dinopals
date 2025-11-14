@@ -1,5 +1,9 @@
 # Project Governance
 
+> **⚠️ PROJECT STATUS: This is an abandoned project available for public use.**
+> 
+> This project is no longer actively governed. While the structure below describes the intended governance model, in practice, reviews and decisions may be significantly delayed or may not occur. The maintainer checks in regularly but is not actively managing the project.
+
 ## Roles
 - Maintainers: Oversee direction, review PRs, cut releases, manage security advisories.
 - Contributors: Propose changes via PRs and issues.
@@ -23,4 +27,5 @@
 - New features should include documentation updates and basic test coverage.
 
 ## Decommissioning
-- If the project becomes unmaintained, a notice will be posted in the README.
+
+**This project is effectively decommissioned.** It is available for public use but is no longer actively maintained. Users and contributors should treat this as an abandoned project and fork if ongoing development or support is needed.

@@ -1,5 +1,9 @@
 # Security Policy
 
+> **⚠️ PROJECT STATUS: This is an abandoned project available for public use.**
+> 
+> Security issues are addressed on a **best-effort basis only**. The maintainer checks in regularly but cannot guarantee timely responses or fixes. For critical security needs, please fork and maintain your own version.
+
 This project aims for clear, professional, and secure practices suitable for government/enterprise contributors and users.
 
 ## Supported Versions
@@ -22,7 +26,7 @@ Include:
 - Proof-of-concept, if available
 - Suggested fix/mitigation, if known
 
-Acknowledgement: best‑effort only. We cannot guarantee response times. Responsible disclosure coordination is also on a best‑effort basis.
+Acknowledgement: best‑effort only. We cannot guarantee response times. Responsible disclosure coordination is also on a best‑effort basis. **Given the abandoned status of this project, security fixes may be significantly delayed or may not come at all. Users should evaluate their own risk tolerance.**
 
 ## Scope and Data Handling
 

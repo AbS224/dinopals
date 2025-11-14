@@ -1,5 +1,11 @@
 # DinoAlphabet Pals
 
+> **⚠️ PROJECT STATUS: This project is no longer actively maintained.**
+> 
+> This repository has been made publicly available for anyone to use, fork, and adapt under the MIT License. While I check in regularly to review issues and pull requests, I am not actively developing new features or providing regular support. Response times may be significantly delayed.
+> 
+> This is an abandoned project now available for public use. Feel free to fork, modify, and use it for your own purposes!
+
 [![CI](https://github.com/AbS224/dinopals/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/AbS224/dinopals/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
@@ -254,3 +260,19 @@ This repository started as a self-learning project to practice programming funda
 - There is no warranty and no guaranteed support timeline.
 - Maintainers may be slow to review or respond.
 - You are free to use, modify, and redistribute under MIT, while the project authors retain copyright.
+---
+
+## 📢 Project Abandonment Notice
+
+**This is an abandoned project now available for public use.** The original maintainer checks in regularly to review issues and pull requests but is not actively developing new features or providing regular support.
+
+### What this means:
+
+- ✅ **Free to use, fork, and modify** under MIT License
+- ✅ **Issues and PRs welcome** - reviewed as time permits (may be delayed)
+- ⚠️ **No active development** - no new features planned
+- ⚠️ **Limited support** - responses may be significantly delayed or may not come at all
+- ⚠️ **Security updates** - addressed on best-effort basis only
+- 💡 **For urgent needs** - please fork and maintain your own version
+
+The project is functional and safe for use, but should be considered **unmaintained**. Community contributions and forks are encouraged!
