@@ -6,7 +6,7 @@ import ErrorBoundary from '@/components/ErrorBoundary'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'DinoAlphabet Pals - For Jeffrey from Uncle Adam',
+  title: 'DinoAlphabet Pals',
   description: 'A magical alphabet learning adventure with your dinosaur friend!',
 }
 

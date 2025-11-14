@@ -12,10 +12,10 @@ const WelcomeMessage: React.FC<WelcomeMessageProps> = ({ onClose }) => {
         onClick={onClose}
       >
         <div className="text-3xl font-bold mb-3 text-blue-800">
-          Hi Jeffrey! 👋
+          Hi there! 👋
         </div>
         <div className="text-xl mb-4 text-green-700 font-semibold text-center">
-          This game was made just for you,<br />from Uncle Adam! 💚
+          This game was made with care for young learners! 💚
         </div>
         <div className="text-6xl mb-2">🦕</div>
         <div className="text-sm text-gray-500 text-center">

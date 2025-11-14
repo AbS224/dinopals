@@ -19,7 +19,7 @@ const SettingsSlider: React.FC = () => {
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
     a.href = url;
-    a.download = `jeffrey-progress-${new Date().toISOString().split('T')[0]}.json`;
+    a.download = `learner-progress-${new Date().toISOString().split('T')[0]}.json`;
     a.click();
     URL.revokeObjectURL(url);
   };
@@ -55,7 +55,7 @@ const SettingsSlider: React.FC = () => {
           <strong>Current setting:</strong>{" "}
           {timeLimit === 0
             ? "No daily limit set."
-            : `Jeffrey can play up to ${timeLimit} minutes per day.`}
+            : `The learner can play up to ${timeLimit} minutes per day.`}
         </div>
         
         <div className="text-xs text-gray-500 mt-2">

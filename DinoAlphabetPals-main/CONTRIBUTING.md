@@ -32,3 +32,42 @@ If you find a bug or have a suggestion, please open an issue on GitHub.
 For general questions, ideas, or discussions about the project, please use [GitHub Discussions](https://github.com/AbS224/dinopals/discussions).
 
 Thank you for helping make DinoAlphabet Pals better!
+# Contributing
+
+Thank you for your interest in improving this project! Please follow the process below to help us review changes efficiently and safely.
+
+## Development Workflow
+1. Fork the repository and create a feature branch: `git checkout -b feat/short-description`
+2. Install dependencies: `npm ci`
+3. Lint and build locally: `npm run lint && npm run build`
+4. Commit with conventional commits (e.g., `feat: add X`, `fix: correct Y`)
+5. Push and open a Pull Request using the template
+
+## Pull Request Requirements
+- CI must pass (lint, build, audit)
+- Include tests or manual verification notes
+- Update docs/README as needed
+- Avoid introducing secrets or sensitive data
+
+## Coding Guidelines
+- TypeScript preferred; keep types strict
+- Keep components small and composable
+- Favor accessibility and performance
+- Follow existing patterns for state (Zustand) and hooks
+
+## Security and Compliance
+- Read `SECURITY.md` before contributing
+- Do not commit secrets; use environment variables and secret stores
+- Avoid collecting PII or storing sensitive data client-side
+
+## Reporting Issues
+Open a GitHub issue and fill out the appropriate template (bug or feature). For security issues, use the private advisory workflow.
+
+## Governance
+See `GOVERNANCE.md` for decision-making and releases.
+
+We appreciate your contributions!
+
+For general questions, ideas, or discussions about the project, please use [GitHub Discussions](https://github.com/AbS224/dinopals/discussions).
+
+Thank you for helping make DinoAlphabet Pals better!

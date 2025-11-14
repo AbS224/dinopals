@@ -79,4 +79,4 @@ Check that all files are present and run: `npm install` first
 
 ---
 
-**Made with 💚 for Jeffrey from Uncle Adam!**
+**Made with 💚 for learners!**

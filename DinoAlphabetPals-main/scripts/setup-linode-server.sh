@@ -333,7 +333,7 @@ NEXT_PUBLIC_GEMINI_API_KEY=your_gemini_api_key_here
 # ElevenLabs API Key for premium voice synthesis
 NEXT_PUBLIC_ELEVENLABS_API_KEY=your_elevenlabs_api_key_here
 
-# Optional: Custom ElevenLabs Voice ID (defaults to Adam voice)
+# Optional: Custom ElevenLabs Voice ID (defaults to a child-friendly voice)
 NEXT_PUBLIC_ELEVENLABS_VOICE_ID=pNInz6obpgDQGcFmaJgB
 EOF
 

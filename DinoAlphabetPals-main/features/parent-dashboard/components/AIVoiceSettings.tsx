@@ -6,7 +6,7 @@ const AIVoiceSettings: React.FC = () => {
   const { availableVoices, changeVoice, hasElevenLabs, speak } = useEnhancedVoice();
   const { hasAI, analyzeDifficulty, isAnalyzing } = useAdaptiveDifficulty();
   const [selectedVoice, setSelectedVoice] = useState('');
-  const [testText, setTestText] = useState("Hi Jeffrey! I'm your friendly dinosaur!");
+  const [testText, setTestText] = useState("Hello! I'm your friendly dinosaur!");
 
   const handleVoiceChange = (voiceId: string) => {
     setSelectedVoice(voiceId);
@@ -81,7 +81,7 @@ const AIVoiceSettings: React.FC = () => {
               {isAnalyzing ? '🔄 Analyzing...' : '🔍 Analyze Now'}
             </button>
             <div className="text-sm text-blue-700">
-              AI automatically adjusts difficulty based on Jeffrey's performance
+              AI automatically adjusts difficulty based on the learner's performance
             </div>
           </div>
         </div>
@@ -175,8 +175,8 @@ const AIVoiceSettings: React.FC = () => {
       <div className="mt-6 p-4 bg-green-50 rounded-xl border-2 border-green-200">
         <h4 className="font-bold text-green-800 mb-3">✨ Benefits of AI & Premium Voice</h4>
         <div className="text-sm text-green-700 space-y-1">
-          <div>🧠 <strong>AI Adaptive Difficulty:</strong> Automatically adjusts game difficulty based on Jeffrey's performance</div>
-          <div>🎯 <strong>Personalized Encouragement:</strong> AI generates custom praise messages for Jeffrey</div>
+          <div>🧠 <strong>AI Adaptive Difficulty:</strong> Automatically adjusts game difficulty based on the learner's performance</div>
+          <div>🎯 <strong>Personalized Encouragement:</strong> AI generates custom praise messages for the learner</div>
           <div>🎤 <strong>Premium Voice:</strong> High-quality, natural-sounding voice with emotional expressions</div>
           <div>📊 <strong>Smart Analytics:</strong> AI analyzes learning patterns and suggests improvements</div>
           <div>🎭 <strong>Emotional Range:</strong> Voice adapts to different emotions (happy, excited, gentle, encouraging)</div>
