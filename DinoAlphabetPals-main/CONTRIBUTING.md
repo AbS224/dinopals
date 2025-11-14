@@ -1,6 +1,19 @@
 # Contributing to DinoAlphabet Pals
 
+> **⚠️ PROJECT STATUS: Lower priority - not actively maintained.**
+> 
+> This project is currently a lower priority as I'm focused on more pressing work in the regtech space. While contributions are welcome, I check in regularly but cannot guarantee timely reviews or responses. For urgent needs or active development, please consider forking the repository.
+
 Thank you for your interest in contributing! This project is open source and welcomes contributions from the community.
+
+## Note on Maintenance
+
+**This project is provided "as-is" with limited maintenance:**
+- Issues and PRs are reviewed when time permits (may be significantly delayed)
+- No guaranteed response times or merge timelines
+- Security issues addressed on best-effort basis
+- Active feature development paused due to other work priorities
+- Community-driven development encouraged through forks
 
 ## How to Contribute
 
@@ -21,7 +34,14 @@ Thank you for your interest in contributing! This project is open source and wel
 
 ## Note on Maintenance
 
-This project is maintained on a best-effort basis. We appreciate contributions but may not be able to review or merge them immediately.
+**This project is provided "as-is" with limited maintenance:**
+- Issues and PRs are reviewed when time permits (may be significantly delayed)
+- No guaranteed response times or merge timelines
+- Security issues addressed on best-effort basis
+- No active feature development by the original maintainer
+- Community-driven development encouraged through forks
+
+For critical needs, please fork the repository and maintain your own version.
 
 ## Reporting Issues
 

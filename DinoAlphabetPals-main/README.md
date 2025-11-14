@@ -1,5 +1,11 @@
 # DinoAlphabet Pals
 
+> **⚠️ PROJECT STATUS: Lower priority - not actively maintained.**
+> 
+> This project is currently a lower priority as I'm focused on more pressing work in the regtech space. I check in regularly to review issues and pull requests, but I'm not actively developing new features or providing regular support. Response times may be significantly delayed. The repository is publicly available for anyone to use, fork, and adapt under the MIT License.
+>
+> **🔒 SECURITY:** Known moderate vulnerabilities exist in dependencies. See [SECURITY_NOTICE.md](SECURITY_NOTICE.md) for details. Use at your own risk or update dependencies if using in production.
+
 [![CI](https://github.com/AbS224/dinopals/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/AbS224/dinopals/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
@@ -254,3 +260,19 @@ This repository started as a self-learning project to practice programming funda
 - There is no warranty and no guaranteed support timeline.
 - Maintainers may be slow to review or respond.
 - You are free to use, modify, and redistribute under MIT, while the project authors retain copyright.
+---
+
+## 📢 Project Status Notice
+
+**This project is a lower priority but not abandoned.** I'm currently focused on more pressing work in the regtech space, but I check in regularly to review issues and pull requests. Active feature development is paused, but the project remains functional and available for public use.
+
+### What this means:
+
+- ✅ **Free to use, fork, and modify** under MIT License
+- ✅ **Issues and PRs welcome** - reviewed as time permits (may be delayed)
+- ⏸️ **Development paused** - prioritizing other work commitments
+- ⚠️ **Limited support** - responses may be significantly delayed
+- ⚠️ **Security updates** - addressed on best-effort basis
+- 💡 **For urgent needs** - please fork and maintain your own version
+
+The project is functional and safe for use. Community contributions and forks are encouraged!

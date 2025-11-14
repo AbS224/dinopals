@@ -1,5 +1,11 @@
 # Security Policy
 
+> **⚠️ PROJECT STATUS: Lower priority - not actively maintained.**
+> 
+> This project is currently a lower priority as I'm focused on more pressing work in the regtech space. Security issues are addressed on a **best-effort basis only**. The maintainer checks in regularly but cannot guarantee timely responses or fixes. For critical security needs, please fork and maintain your own version.
+>
+> **Known vulnerabilities exist in dependencies.** See [SECURITY_NOTICE.md](SECURITY_NOTICE.md) for current status and recommendations.
+
 This project aims for clear, professional, and secure practices suitable for government/enterprise contributors and users.
 
 ## Supported Versions
@@ -22,7 +28,7 @@ Include:
 - Proof-of-concept, if available
 - Suggested fix/mitigation, if known
 
-Acknowledgement: best‑effort only. We cannot guarantee response times. Responsible disclosure coordination is also on a best‑effort basis.
+Acknowledgement: best‑effort only. We cannot guarantee response times. Responsible disclosure coordination is also on a best‑effort basis. **Given the lower priority status of this project, security fixes may be significantly delayed or may not come at all. Users should evaluate their own risk tolerance.**
 
 ## Scope and Data Handling
 

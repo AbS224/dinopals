@@ -1,5 +1,9 @@
 # Project Governance
 
+> **⚠️ PROJECT STATUS: Lower priority - not actively maintained.**
+> 
+> This project is currently a lower priority as I'm focused on more pressing work in the regtech space. While the structure below describes the intended governance model, in practice, reviews and decisions may be significantly delayed or may not occur. The maintainer checks in regularly but is not actively managing the project.
+
 ## Roles
 - Maintainers: Oversee direction, review PRs, cut releases, manage security advisories.
 - Contributors: Propose changes via PRs and issues.
@@ -23,4 +27,5 @@
 - New features should include documentation updates and basic test coverage.
 
 ## Decommissioning
-- If the project becomes unmaintained, a notice will be posted in the README.
+
+**This project is a lower priority but not decommissioned.** It is available for public use with limited maintenance as focus is on other work commitments. Users and contributors should fork if ongoing active development or immediate support is needed.
