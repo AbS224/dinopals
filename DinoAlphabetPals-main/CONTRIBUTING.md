@@ -27,4 +27,8 @@ This project is maintained on a best-effort basis. We appreciate contributions b
 
 If you find a bug or have a suggestion, please open an issue on GitHub.
 
+## Questions and Discussion
+
+For general questions, ideas, or discussions about the project, please use [GitHub Discussions](https://github.com/AbS224/dinopals/discussions).
+
 Thank you for helping make DinoAlphabet Pals better!
