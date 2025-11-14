@@ -1,5 +1,8 @@
 # DinoAlphabet Pals
 
+[![CI](https://github.com/AbS224/dinopals/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/AbS224/dinopals/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
 ## What is this?
 A magical, interactive, and safe alphabet learning game for young children! Your dino buddy helps you learn letters with games, voice, and positive encouragement. Parents can check progress and set play limits.
 
@@ -232,3 +235,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 **Made with 💚 for early childhood education**
+
+## ℹ️ Maintainer’s Note
+
+This repository started as a self-learning project to practice programming fundamentals and documentation quality. It’s intentionally simple, runs fully locally without external services, and is maintained on a best‑effort basis. Contributions are welcome — please see CONTRIBUTING, follow the Code of Conduct, and propose enhancements via issues/PRs.
