@@ -5,7 +5,19 @@ All notable changes to this project will be documented in this file.
 The format is based on Keep a Changelog and this project adheres to Semantic Versioning.
 
 ## [Unreleased]
-- Add more games and lessons
+### Changed
+- **Project Status**: Updated all documentation to reflect abandoned/unmaintained status
+- Added prominent warnings in README, CONTRIBUTING, SUPPORT, SECURITY, and GOVERNANCE
+- Clarified that maintainer checks in regularly but responses may be significantly delayed
+- Emphasized "as-is" nature with recommendation to fork for urgent needs
+- Removed redundant 2.4MB zip file from repository
+- Added *.zip to .gitignore
+
+### Removed
+- DinoAlphabetPals-main.zip (2.4MB redundant file)
+
+## [Future Plans]
+- Add more games and lessons (community contributions welcome)
 - Improve accessibility modes and multi-language support
 
 ## [0.1.0] - 2025-11-14

@@ -58,4 +58,7 @@ echo 'NEXT_PUBLIC_DEMO_LOGIN_PASS=demo123' >> .env.local
 - Additional accessibility modes and multi-language support
 
 ## Status
-This is a learning-focused, community-maintained project. See `GOVERNANCE.md`, `CONTRIBUTING.md`, and `SECURITY.md` for process and policies.
+
+> **⚠️ This is an abandoned project available for public use.**
+
+This project is no longer actively maintained. The maintainer checks in regularly but cannot guarantee response times. It's provided "as-is" for anyone to use, fork, and adapt under the MIT License. See `GOVERNANCE.md`, `CONTRIBUTING.md`, `SECURITY.md`, and `SUPPORT.md` for complete details on the project's maintenance status and community guidelines.
