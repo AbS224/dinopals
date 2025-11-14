@@ -225,6 +225,15 @@ Please review our [Security Policy](SECURITY.md) for how to report vulnerabiliti
 
 See [docs/product-overview.md](docs/product-overview.md) for a high-level summary, configuration, and demo tips.
 
+## 🔊 Audio Preview
+
+<audio controls>
+  <source src="KEEP%20THE%20COMMONS%20LIT.wav" type="audio/wav" />
+  Your browser does not support the audio element.
+</audio>
+
+- Direct link: [KEEP THE COMMONS LIT.wav](KEEP%20THE%20COMMONS%20LIT.wav)
+
 ## 🚢 Deployment & Hardening
 
 See [docs/deployment.md](docs/deployment.md) for security headers, CSP examples, and platform notes.
