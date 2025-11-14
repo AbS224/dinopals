@@ -12,7 +12,7 @@ const TestPage: React.FC = () => {
   const router = useRouter();
   const { speak, isLoading, hasElevenLabs, availableVoices, changeVoice } = useEnhancedVoice();
   const { analyzeDifficulty, generatePersonalizedEncouragement, hasAI, isAnalyzing } = useAdaptiveDifficulty();
-  const { handleError, handleWarning, handleInfo } = useErrorHandler({ component: 'TestPage' });
+  const { handleError, handleInfo } = useErrorHandler({ component: 'TestPage' });
   
   const [testResults, setTestResults] = useState<Record<string, any>>({});
   const [securityTests, setSecurityTests] = useState<Record<string, any>>({});
