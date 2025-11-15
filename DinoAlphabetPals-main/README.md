@@ -4,10 +4,12 @@
 > 
 > This project is currently a lower priority as I'm focused on more pressing work in the regtech space. I check in regularly to review issues and pull requests, but I'm not actively developing new features or providing regular support. Response times may be significantly delayed. The repository is publicly available for anyone to use, fork, and adapt under the MIT License.
 >
-> **🔒 SECURITY:** Known moderate vulnerabilities exist in dependencies. See [SECURITY_NOTICE.md](SECURITY_NOTICE.md) for details. Use at your own risk or update dependencies if using in production.
+> **🔒 SECURITY:** Dependencies updated - no known vulnerabilities. See [SECURITY_NOTICE.md](SECURITY_NOTICE.md) for details.
 
 [![CI](https://github.com/AbS224/dinopals/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/AbS224/dinopals/actions/workflows/ci.yml)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](LICENSE)
+[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/AbS224/dinopals)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/AbS224/dinopals)
 
 ## What is this?
 A magical, interactive, and safe alphabet learning game for young children! Your dino buddy helps you learn letters with games, voice, and positive encouragement. Parents can check progress and set play limits.
@@ -22,7 +24,16 @@ A magical, interactive, and safe alphabet learning game for young children! Your
 - 🧠 **AI-Powered Adaptive Difficulty** (Google Gemini)
 - 🎭 **Premium Voice Synthesis** (ElevenLabs)
 
-## 🚀 Quick Setup
+## 🛠 Tech Stack
+![Next.js](https://img.shields.io/badge/Next.js-14-black)
+![React](https://img.shields.io/badge/React-18-blue)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.5-blue)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.4-38B2AC)
+![Zustand](https://img.shields.io/badge/Zustand-4.5-orange)
+![Google Gemini](https://img.shields.io/badge/Google%20Gemini-AI-green)
+![ElevenLabs](https://img.shields.io/badge/ElevenLabs-Voice-purple)
+
+## � Quick Setup
 
 ### Option 1: Simple Start
 1. Unzip this project
@@ -201,8 +212,13 @@ Currently uses localStorage with Zustand. For multi-device sync:
 3. Implement cloud sync functionality
 
 ## 📱 Deployment
-Ready to share with the world?
+Ready to share with the world? The app builds successfully and is ready for deployment!
 
+### One-Click Deployments
+- **Vercel**: Click the "Deploy to Vercel" button above
+- **Netlify**: Click the "Deploy to Netlify" button above
+
+### Manual Deployment
 ```bash
 # Build the project
 npm run build
@@ -211,8 +227,13 @@ npm run build
 npx vercel --prod
 
 # Or deploy to Netlify
-npm run build && npx netlify deploy --prod --dir=out
+npm run build && npx netlify deploy --prod --dir=.next
 ```
+
+### Build Status
+✅ **Build verified**: Successfully builds for production with no errors
+✅ **Dependencies updated**: All security vulnerabilities resolved
+✅ **Ready for deployment**: Compatible with Vercel, Netlify, and other hosting platforms
 
 ## 🤝 Contributing
 We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines, [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) for community standards, and [GOVERNANCE.md](GOVERNANCE.md) for decision-making.
@@ -241,11 +262,17 @@ See [docs/deployment.md](docs/deployment.md) for security headers, CSP examples,
 - Changelog: [CHANGELOG.md](CHANGELOG.md)
 
 ## 📝 License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is dual-licensed:
+- **Community License:** AGPL-3.0 (see LICENSE-AGPL). This is free to use for any project that also releases its full source code.
+- **Commercial License:** Required for use in closed-source applications or hosted services that do not open-source their code. It includes priority support and removes the copyleft requirements of the AGPL.
+
+Please contact support@verifiableproof.systems for commercial licensing terms.
+
+See the [LICENSE](LICENSE) file for details.
 
 ## 🧑‍⚖️ Ownership & Support
 - Ownership: Copyright © 2024–2025 "DinoAlphabet Pals" authors.
-- License: MIT — permissive use, modification, and distribution are allowed.
+- License: Dual-licensed AGPL-3.0/Commercial — see above for details.
 - Maintenance: Community-supported, best‑effort. No response-time guarantees or SLAs.
 - Issues/PRs: Reviewed as time permits. For urgent needs, please fork.
 
@@ -259,7 +286,7 @@ This repository started as a self-learning project to practice programming funda
 
 - There is no warranty and no guaranteed support timeline.
 - Maintainers may be slow to review or respond.
-- You are free to use, modify, and redistribute under MIT, while the project authors retain copyright.
+- You are free to use, modify, and redistribute under dual AGPL-3.0/Commercial license, while the project authors retain copyright.
 ---
 
 ## 📢 Project Status Notice
@@ -268,7 +295,7 @@ This repository started as a self-learning project to practice programming funda
 
 ### What this means:
 
-- ✅ **Free to use, fork, and modify** under MIT License
+- ✅ **Free to use, fork, and modify** under dual AGPL-3.0/Commercial License
 - ✅ **Issues and PRs welcome** - reviewed as time permits (may be delayed)
 - ⏸️ **Development paused** - prioritizing other work commitments
 - ⚠️ **Limited support** - responses may be significantly delayed

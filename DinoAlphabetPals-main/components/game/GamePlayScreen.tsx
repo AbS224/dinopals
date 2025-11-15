@@ -68,8 +68,11 @@ function getRandomLetters(target: string, difficulty: "easy" | "medium" | "hard"
   
   while (picks.length < n) {
     const idx = Math.floor(Math.random() * others.length);
-    picks.push(others[idx]);
-    others.splice(idx, 1);
+    const selected = others[idx];
+    if (selected) {
+      picks.push(selected);
+      others.splice(idx, 1);
+    }
   }
   
   // Shuffle
