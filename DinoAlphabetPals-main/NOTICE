@@ -2,8 +2,8 @@ DinoAlphabet Pals
 
 Copyright (c) 2024-2025 DinoAlphabet Pals
 
-This software is licensed under the MIT License. You may use, copy, modify,
-and distribute this software under the terms of the MIT License. See LICENSE.
+This software is dual-licensed. For community use, it is licensed under AGPL-3.0.
+For commercial use, a separate commercial license is required. See LICENSE for details.
 
 This project may include third-party dependencies which are licensed under
 separate terms by their respective authors. See `package.json` and upstream
